@@ -1,0 +1,15 @@
+PS1='\[\e[1m\]\u\[\e[0m\]@\[\e[2m\]\h \[\e[0;38;5;34m\]\w \[\e[0m\]'
+
+export LS_OPTIONS='--color=auto'
+
+alias ls='ls $LS_OPTIONS'
+alias ll='ls $LS_OPTIONS -l'
+alias l='ls $LS_OPTIONS -lA'
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias c='clear'
+
+export CMAKE_GENERATOR="Ninja"
+export CMAKE_EXPORT_COMPILE_COMMANDS=TRUE
